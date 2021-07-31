@@ -19,4 +19,14 @@ los spans deben estar en línea, separados con márgenes de 15px Y tener color d
 
 */
 
+const usuarioMeGusta = prompt("ingrese la cantidad de me gusta")
+const usuarioMeEncanta = prompt("ingrese la cantidad de me encanta")
+const usuarioMeAsombra = prompt("ingrese la cantidad de me asombra")
 
+const spanLike = document.getElementById("like")
+const spanMeEncanta = document.getElementById("meEncanta")
+const spanMeAsombra = document.getElementById("meAsombra")
+
+spanLike.textContent = `${usuarioMeGusta} 👍`;
+spanMeEncanta.textContent = `${usuarioMeEncanta} ❤️`;
+spanMeAsombra.textContent = `${usuarioMeAsombra} 😮`;
