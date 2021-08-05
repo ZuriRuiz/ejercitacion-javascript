@@ -12,7 +12,7 @@ Por ejemplo, si tuviésemos una imagen de un hipocampo, debería tener un atribu
 
 const animalUsuario = prompt("ingrese cual de estos animales quiere ver en pantalla? loro, gato o lobo")
 const loro = document.querySelector(".loro")
-const gato = document.querySelector(".gatito")
+const gato = document.querySelector(".gato")
 const lobo = document.querySelector(".lobo")
 
 if(animalUsuario == "loro"){
